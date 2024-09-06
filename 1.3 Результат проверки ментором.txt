@@ -1,0 +1,9 @@
+ Ховер эффект всем интерактивным элементам
+Первой ссылке навесь модификатор актив, чтобы была подсвечена как на макете всегда
+https://github.com/DenisMendelev/BEM-1.3/blob/main/index.html#L25 - можно сделать списком вместо дива
+ОБщий момент, что зачастую можно отказаться от кучи оберток и ничего не изменится
+https://github.com/DenisMendelev/BEM-1.3/blob/main/index.html#L62 - выше один в один такие же кноки, но верстаешь их по разному и даешь разные классы - не думал, что это одни и те же блоки? ;)
+https://github.com/DenisMendelev/BEM-1.3/blob/main/index.html#L30 - айтемы в классах убрать, эти классы ни о чем не говорят и так делать не стоит
+https://github.com/DenisMendelev/BEM-1.3/blob/main/index.css#L122 - тем более и классы одни и те же
+https://github.com/DenisMendelev/BEM-1.3/blob/main/index.html#L73 - я бы делал ссылки
+				
