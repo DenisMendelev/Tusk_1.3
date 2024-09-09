@@ -64,7 +64,7 @@ header button{
   background-color: transparent;
 }
 
-.header__button:hover {
+header button:hover {
 	transform: translateY(1px) translateX(-1px);
 	transition: 0.15s;
 }
