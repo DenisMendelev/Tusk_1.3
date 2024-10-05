@@ -69,7 +69,7 @@ header button:hover {
 	transition: 0.15s;
 }
 
-.main__title {
+.services__title {
   margin: 0;
   color: #1B1C21;
   font-family: TT Lakes;
@@ -81,7 +81,7 @@ header button:hover {
   padding: 24px 16px 0 16px;
 }
 
-.main__title::before {
+.services__title::before {
   content: "";
   position: absolute;
   height: 40px;
@@ -91,35 +91,35 @@ header button:hover {
   border-radius: 0px 10px 10px 0px;
 }
 
-.main__application {
+.services__application {
   display: none;
 }
 
-.main__navigation {
+.services__navigation {
   margin: 0 16px 0 16px;
 
 }
 
-.main__services--type {
+.services__type {
   display: flex;
 	overflow-x: scroll;
   padding: 0;
   margin: 0;
 }
 
-.main__navigation--item {
+.services__navigation--item {
 	height: 40px;
   border: 2px solid transparent;
   white-space: nowrap;
 }
 
-.main__navigation--item:first-child {
+.services__navigation--item:first-child {
   background-color:#ffffff;
   border-radius: 6px;
   border-color: #B8FFEC;
 }
 
-.main__navigation--href {
+.services__navigation--href {
 	display: inline-block;
 	font-size: 16px;
   font-style: normal;
@@ -137,26 +137,26 @@ header button:hover {
   white-space: nowrap;
 }
 
-.main__navigation--href:hover {
+.services__navigation--href:hover {
 	color: #1B1C21;
 	text-decoration: underline;
 }
 
-.main__content {
+.content {
 	display: flex;
 	flex-direction: column;
   margin-top: 24px;
 }
 
-.main__text {
+.content__text {
   display: flex;
   flex-direction: column; 
   margin: 0px 16px 0 16px;
 }
 
-.main__text--1,
-.main__text--2,
-.main__text--3 {
+.content__text--1,
+.content__text--2,
+.content__text--3 {
   color: #1B1C21;
   font-family: TT Lakes;
   font-style: normal;
@@ -166,12 +166,12 @@ header button:hover {
   margin:0;
 }
 
-.main__text--2,
-.main__text--3 {
+.content__text--2,
+.content__text--3 {
   display: none;
 }
 
-.main__button {
+.content__button {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -180,19 +180,19 @@ header button:hover {
   background: none;
 }
 
-.main__button:hover {
+.content__button:hover {
 	transform: translateY(1px);
 	transition: 0.1s;
 }
 
-.main__button--img {
+.content__button--img {
   width: 24px;
   height: 24px;
   flex-shrink: 0;
   margin:16px 8px 12px 0 ;
 }
 
-.main__button--text {
+.content__button--text {
   color: #1B1C21;
   font-family: TT Lakes;
   font-size: 16px;
@@ -206,11 +206,11 @@ header button:hover {
   cursor: pointer;
 }
 
-.main__button--text:hover {
+.content__button--text:hover {
 	color: #7E7E82;
 }
 
-.main__img {
+.content__img {
 display: flex;
 align-self: center;
 }
@@ -252,17 +252,17 @@ align-self: center;
 		border: 2px #EAEAEA solid;
 	}
 
-	.main__content {
+	.content {
 		display: flex;
 		flex-direction:row; 
 	}
 
-	.main__text--2 {
+	.content__text--2 {
 		display: flex;
 		padding-top: 20px;
 	}
 
-	.main__img{
+	.content__img{
 		width: 360px;
 		height: 230px;
 	}
@@ -273,7 +273,7 @@ align-self: center;
 		display: none;
 	}
 	
-	.main__services {
+	.services {
 		display: flex;
 		justify-content:space-between;
 		align-items: center;
@@ -281,11 +281,11 @@ align-self: center;
 		padding-bottom: 8px;
 	}
 	
-	.main__title {
+	.services__title {
 		height: 40px;
 	}
 
-	.main__application {
+	.services__application {
 		display: flex;
 		width: auto;
 		height: 40px;
@@ -294,41 +294,41 @@ align-self: center;
 		gap: 42px;
 	}
 
-	.main__services--type {
+	.services__type {
 		flex-wrap: wrap;
 		overflow-x: hidden;
 	}
 
-	.main__repair,
-	.main__checkstatus {
+	.services__repair,
+	.services__checkstatus {
 		display: flex;
 		align-items: center;
 		gap: 8px;
 	}
 
-	.main__repair:hover{
+	.services__repair:hover{
 		transform: translateY(1px);
 		transition: 0.1s;
 		color: #7E7E82;
 	}
 	
-	.main__checkstatus:hover{
+	.services__checkstatus:hover{
 		transform: translateY(1px);
 		transition: 0.1s;
 		color: #7E7E82;
 	}
 
-	.main__repair,
-	.main__checkstatus {
+	.services__repair,
+	.services__checkstatus {
 		background-color: transparent;
 	}
 
-	.main__text--3 {
+	.services__text--3 {
 		display: flex;
 		padding-top: 20px;
 	}
 	
-	.main__img {
+	.services__img {
 		width: 532px;
 		height: 307px;
 	}
