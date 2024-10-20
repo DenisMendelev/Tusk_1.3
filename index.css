@@ -209,7 +209,7 @@ header button:hover {
 .content__button--text:hover {
 	color: #7E7E82;
 }
-
+/* //фывфывфывфывфы */
 .content__img {
 display: flex;
 align-self: center;
@@ -323,8 +323,12 @@ align-self: center;
 		background-color: transparent;
 	}
 
-	.services__text--3 {
-		display: flex;
+	.content__text--2 {
+		display: none;
+	}
+
+	.content__text--3 {
+		display: inline-block;
 		padding-top: 20px;
 	}
 	
